@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_863104"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginVertical="65dp"
+        android:src="@drawable/starter"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="127dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="113dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/rubik_medium"
+        android:text="@string/log_in"
+        android:textColor="@color/colorFontWhite" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="127dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center|top|center_vertical"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="113dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/rubik_medium"
+        android:text="@string/register"
+        android:textColor="@color/colorFontWhite" />
+
+    <Button
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="520dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/rubik_bold"
+        android:layout_centerHorizontal="true"
+        android:text=" Forgot  password ? "
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        android:backgroundTint="#00FFFFFF" />
+</RelativeLayout>

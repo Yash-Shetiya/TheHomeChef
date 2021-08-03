@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Home Chef</string>
+
+    <string name="log_in">Log In</string>
+    <string name="todo">TODO</string>
+    <string name="register">Register</string>
+    <string name="search">Search..</string>
+    <string name="sweet">SWEET</string>
+    <string name="veg">VEG</string>
+    <string name="nonveg">NON-VEG</string>
+    <string name="other">OTHER</string>
+    <string name="developer">developerhomechef@gmail.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="welcome1">welcome</string>
+    <string name="watch_videos_here">   Watch Videos Here   </string>
+</resources>

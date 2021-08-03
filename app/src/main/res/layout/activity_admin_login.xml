@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36B7C6"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".recipe.AdminLogin">
+
+    <ImageView
+        android:layout_width="283dp"
+        android:layout_height="245dp"
+        android:src="@drawable/starter" />
+
+    <TextView
+        android:id="@+id/txt_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/rubik_regular"
+        android:text="“For Development Purposes Only”"
+        android:textColor="#000000" />
+
+
+    <EditText
+        android:id="@+id/Demail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/rubik_regular"
+        android:hint="Developer Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/textHintColor"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/Dpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/rubik_regular"
+        android:hint="Developer Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/textHintColor"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/Dlogin"
+        android:layout_width="127dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/rubik_medium"
+        android:text="log in"
+        android:textColor="@color/colorFontWhite"
+        app:backgroundTint="#FFFFFF"
+        app:backgroundTintMode="multiply" />
+
+</LinearLayout>

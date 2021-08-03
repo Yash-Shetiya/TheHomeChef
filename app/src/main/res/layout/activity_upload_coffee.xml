@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor"
+    tools:context=".recipe.UploadCoffee">
+
+    <ImageView
+        android:id="@+id/filecancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button_background"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        app:layout_constraintEnd_toEndOf="@+id/filelogo"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/fileupload"
+        app:layout_constraintTop_toTopOf="@+id/filelogo" />
+
+    <EditText
+        android:id="@+id/filename"
+        android:layout_width="280dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/rubik_regular"
+        android:hint="File Name"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/textHintColor"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/fileupload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/fileupload"
+        android:layout_width="127dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Upload "
+        android:textColor="@color/colorFontWhite"
+        app:backgroundTint="#FFFFFF"
+        app:backgroundTintMode="multiply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/filename"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="@+id/filename" />
+
+    <ImageView
+        android:id="@+id/filebrowse"
+        android:layout_width="181dp"
+        android:layout_height="189dp"
+        android:layout_marginBottom="144dp"
+        app:layout_constraintBottom_toTopOf="@+id/fileupload"
+        app:layout_constraintEnd_toEndOf="@+id/filelogo"
+        app:layout_constraintStart_toStartOf="@+id/filelogo"
+        app:layout_constraintTop_toTopOf="@+id/filelogo"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/imagebrowse" />
+
+    <ImageView
+        android:id="@+id/filelogo"
+        android:layout_width="213dp"
+        android:layout_height="323dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/fileupload"
+        app:layout_constraintEnd_toEndOf="@+id/filename"
+        app:layout_constraintStart_toStartOf="@+id/filename"
+        app:srcCompat="@drawable/filelogo" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="317dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoh" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

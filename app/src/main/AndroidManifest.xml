@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.thehomechef">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor"
+        tools:targetApi="m">
+        <activity android:name=".recipe.UploadSavory" />
+        <activity android:name=".recipe.UploadBreakfast" />
+        <activity android:name=".recipe.UploadDessert" />
+        <activity android:name=".recipe.UploadSweet" />
+        <activity android:name=".recipe.UploadBeverage" />
+        <activity android:name=".recipe.UploadDrink" />
+        <activity android:name=".recipe.UploadCoffee" />
+        <activity android:name=".recipe.ShowMenu" />
+        <activity android:name=".recipe.savoryActivity" />
+        <activity android:name=".recipe.AdminLogin" />
+        <activity android:name=".recipe.ViewPdf" />
+        <activity android:name=".recipe.UploadTea" />
+        <activity android:name=".recipe.breakfastActivity" />
+        <activity android:name=".recipe.dessertActivity" />
+        <activity android:name=".recipe.sweetActivity" />
+        <activity android:name=".recipe.beverageActivity" />
+        <activity android:name=".recipe.drinkActivity" />
+        <activity android:name=".recipe.coffeeActivity" />
+        <activity android:name=".recipe.teaActivity" />
+        <activity android:name=".recipe.BookActivity" />
+        <activity android:name=".AboutusActivity" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".OptionsActivity" />
+        <activity android:name=".FollowersActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".PostActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

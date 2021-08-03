@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "202426517388",
+    "firebase_url": "https://thehomechef-cead2.firebaseio.com",
+    "project_id": "thehomechef-cead2",
+    "storage_bucket": "thehomechef-cead2.appspot.com"
+  },
+  "client": [
+    {
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5jWUF6Kw0ZYeeKY6RssmRCYsQ5aD7pac"
+        }
+      ],
+      "client_info": {
+        "mobilesdk_app_id": "1:202426517388:android:07a7b5160b8219e002f8a9",
+        "android_client_info": {
+          "package_name": "com.example.thehomechef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202426517388-ctu5eb168864v1dgssshdajbqei236r1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202426517388-ctu5eb168864v1dgssshdajbqei236r1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

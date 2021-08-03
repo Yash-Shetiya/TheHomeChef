@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/starter" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:hint="Email"
+        android:fontFamily="@font/rubik_regular"
+        android:textSize="16sp"
+        android:textColorHint="@color/textHintColor"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/email"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:hint="Password"
+        android:fontFamily="@font/rubik_regular"
+        android:textSize="16sp"
+        android:textColorHint="@color/textHintColor"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/password"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="127dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/rubik_medium"
+        android:text="@string/log_in"
+        android:textColor="@color/colorFontWhite" />
+
+    <TextView
+        android:id="@+id/txt_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rubik_regular"
+        android:text="Don't have an account? Sign up"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/rubik_bold"
+        android:text=" Forgot  password ? "
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#00FFFFFF" />
+
+</LinearLayout>

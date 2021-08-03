@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="4dp"
+    android:background="@color/BackgroundColor"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/BackgroundColor"
+        android:padding="1dp" >
+
+        <ImageView
+            android:id="@+id/titlelogo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/titlelogo"/>
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="251dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_toEndOf="@+id/titlelogo"
+            android:layout_toRightOf="@+id/titlelogo"
+            android:fontFamily="@font/rubik_medium"
+            android:padding="7dp"
+            android:text="This Is Header Text"
+            android:textColor="#000"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
